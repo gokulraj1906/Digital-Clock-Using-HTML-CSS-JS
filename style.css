@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,#ee2929,#d6a5a5,#EEE0C9,#ee2f2f);
+    color: #fff;
+    font-family: 'Digital-7', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgb(18, 189, 231);
+    color: #000000;
+}
+
+.clock {
+    font-size: 48px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #111;
+    display: inline-block;
+}
+
+#time {
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: #fffefe;
+}
